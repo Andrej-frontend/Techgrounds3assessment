@@ -1,0 +1,125 @@
+body {
+    font-family: system-ui;
+    background: black;
+    color: white;
+    text-align: center;
+  }
+
+.headcontainer {
+  display: block;
+  margin: 0px auto auto;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  padding: 0px;
+  margin: 0px;
+  width: auto;
+  height: 60px;
+}
+
+#nav li {
+    display:inline; /*block*/
+    list-style-type: none;
+}
+
+a {
+  color:white;
+  text-decoration: none;
+}
+
+.theeHuis {
+    position: absolute;
+    top: 10px;
+    left: 16px;
+    background-color: transparent;
+}
+
+.navbarTop {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.theeZakjes {
+    display: table;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 1px auto auto;
+    height: 400px;
+    width: 50%;
+    background-color: transparent;
+    font-style: italic;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*border: solid rgb(187, 46, 46) 2px;*/
+}
+
+#bio {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  background-color: hsla(120, 4%, 5%, 0.89);
+  opacity: 0.8;
+  /*border: solid rgb(46, 187, 46) 2px;
+  display: block;
+  vertical-align: middle;
+  horizontal
+  margin: 10px;
+  height: 100px;
+  width: 100%;
+  margin: 0px auto auto;
+  left: 100px;
+  top: -400px;
+  */
+  }
+
+.pop {
+  opacity: 0.8;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.teacup {
+  width: 33%;
+  margin: 0 10px;
+  text-align: center;
+  border: 1px black solid;
+  padding-bottom: 30px;
+}
+
+.img-wrapper {
+  width: auto;
+  height: 0;
+  padding-top: 2%;
+  background-size: contain;
+  background-repeat: none;
+  background-position: center;
+}
+
+
+
+
+
+/*.single-teacup {
+  float:initial;
+  width: 33.33%;
+  padding: 5px; 
+}*/
+/*
+.tea-cup-wrapperI {
+  display: flex;
+  justify-content: center;
+}*/
+
+
+
+
+
+
