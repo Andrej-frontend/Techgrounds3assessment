@@ -48,7 +48,7 @@ a {
     height: 400px;
     width: 50%;
     background-color: transparent;
-    font-style: italic;
+    font-style:normal;
     background-repeat: no-repeat;
     background-size: cover;
     /*border: solid rgb(187, 46, 46) 2px;*/
@@ -60,63 +60,80 @@ a {
   width: 100%;
   background-color: hsla(120, 4%, 5%, 0.89);
   opacity: 0.8;
-  /*border: solid rgb(46, 187, 46) 2px;
-  display: block;
-  vertical-align: middle;
-  horizontal
-  margin: 10px;
-  height: 100px;
-  width: 100%;
-  margin: 0px auto auto;
-  left: 100px;
-  top: -400px;
-  */
+  /*border: solid rgb(46, 187, 46) 2px;*/
   }
 
 .pop {
   opacity: 0.8;
 }
 
-*{
-  box-sizing: border-box;
+#container-1 {
+  display: flex;
+  top: 10px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  height: 160px;
+  width: 70%;
+  border: 1px rgb(15, 14, 14) solid;
+  padding-left: 0;
+  align-items:stretch;
+  justify-content:space-evenly; 
+  flex-direction:row;
+  flex-wrap: wrap;
+  padding: 1px;
+  align-content: space-around;
 }
 
-.container {
+#container-2 {
   display: flex;
-  justify-content: center;
+  top: 10px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  height: 160px;
+  width: 70%;
+  border: 1px rgb(10, 9, 9) solid;
+  padding-left: 0;
+  align-items:stretch;
+  justify-content:space-evenly; 
+  flex-direction:row;
+  flex-wrap: wrap;
+  padding: 1px;
+  align-content: space-around;
 }
 
 .teacup {
   width: 33%;
-  margin: 0 10px;
   text-align: center;
-  border: 1px black solid;
-  padding-bottom: 30px;
 }
 
-.img-wrapper {
-  width: auto;
-  height: 0;
-  padding-top: 2%;
-  background-size: contain;
-  background-repeat: none;
+#container-3 {
+  display: table;
+  position: relative;
+  margin: 1px auto auto;
+  height: 400px;
+  width: 100%;
+  font-style:normal;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  padding: 0;
+  text-align: center;
+  background-image: url("https://i.imgur.com/ME2WNoD.jpeg");
+  background-repeat: no-repeat;
   background-position: center;
+  background-size: 70%;
 }
 
+.top {
+  margin: auto;
+}
 
+.footer li{
+  display: inline;
+  list-style-type: none;
+}
 
-
-
-/*.single-teacup {
-  float:initial;
-  width: 33.33%;
-  padding: 5px; 
-}*/
-/*
-.tea-cup-wrapperI {
-  display: flex;
-  justify-content: center;
-}*/
 
 
 
